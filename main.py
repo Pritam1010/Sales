@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Define dataset path dynamically
-dataset_path = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop", "projects", "Sales", "dataset", "ecommerce_dataset_final.csv")
+dataset_path = os.path.join("dataset", "ecommerce_dataset_final.csv")
 
 def load_data():
     try:
